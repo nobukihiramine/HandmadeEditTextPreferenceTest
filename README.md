@@ -1,9 +1,11 @@
 # HandmadeEditTextPreferenceTest
 EditTextPreferenceと同様のダイアログを自作する方法。
+
 要点としては、
-- XXXXPreferenceクラスの派生クラスを作成する。
-- onCreateView関数をオーバーライドし、setWidgetLayoutResource関数で、TextViewを登録する。
-- onBindView関数をオーバーライドし、textView.setText関数で、TextViewにPreference値を設定する。
+- DialogPreferenceクラスの派生クラスを作成する。
+- onCreateDialogView関数をオーバーライドし、setDialogLayoutResource関数で、自作のダイアログのレイアウトを設定する。
+- onBinddialogView関数をオーバーライドし、プリファレンス値の読み込みを行い、自作のダアログのアイテムの値の更新を行う。
+- onDialogClosed関数をオーバーライドし、OKボタンが押された場合に、プリファレンス値の保存を行う。
 
 ## Screenshots : スクリーンショット
 <img src="images/Screenshot_01.png" width="256" alt="Screenshot"/> <img src="images/Screenshot_02.png" width="256" alt="Screenshot"/> <img src="images/Screenshot_03.png" width="256" alt="Screenshot"/> <img src="images/Screenshot_04.png" width="256" alt="Screenshot"/> <img src="images/Screenshot_05.png" width="256" alt="Screenshot"/>
