@@ -3,8 +3,8 @@ EditTextPreferenceと同様のダイアログを自作する方法。
 
 要点としては、
 - DialogPreferenceクラスの派生クラスを作成する。
-- onCreateDialogView関数をオーバーライドし、setDialogLayoutResource関数で、自作のダイアログのレイアウトを設定する。
-- onBinddialogView関数をオーバーライドし、プリファレンス値の読み込みを行い、自作のダアログのアイテムの値の更新を行う。
+- onCreateDialogView関数をオーバーライドし、setDialogLayoutResource関数で、自作のテキスト設定ダイアログのレイアウトを設定する。
+- onBindDialogView関数をオーバーライドし、プリファレンス値の読み込みを行い、ダイアログアイテムの更新を行う。
 - onDialogClosed関数をオーバーライドし、OKボタンが押された場合に、プリファレンス値の保存を行う。
 
 ## Screenshots : スクリーンショット
