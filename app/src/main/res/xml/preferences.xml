@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="@string/abc"
+        android:key="text_preference_1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="summary"
+        android:title="Built-in text preference"/>
+    <com.hiramine.handmadeedittextpreferencetest.EditTextPreferenceDisplayValue
+        android:defaultValue="@string/def"
+        android:key="text_preference_2"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="summary"
+        android:title="Display value Built-in text preference"/>
+    <com.hiramine.handmadeedittextpreferencetest.HandmadeEditTextPreference
+        android:defaultValue="@string/uvw"
+        android:key="text_preference_3"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="summary"
+        android:title="Handmade text preference"/>
+    <com.hiramine.handmadeedittextpreferencetest.HandmadeEditTextPreferenceDisplayValue
+        android:defaultValue="@string/xyz"
+        android:key="text_preference_4"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="summary"
+        android:title="Display value Handmade text preference"/>
+
+</PreferenceScreen>
